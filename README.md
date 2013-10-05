@@ -18,4 +18,4 @@ Use the navbar to find interior pages with biology of surfers.
 Credits
 -------
 
-Thanks to ICS314 Fall2013.
+Thanks to ICS314 Fall2013 for support.
