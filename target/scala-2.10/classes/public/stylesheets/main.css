@@ -1,0 +1,31 @@
+body {
+
+}
+
+.header {
+  background: url('../images/surf-head.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.kalani-pic {
+  background: url('../images/kd.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.moore-pic {
+  background: url('../images/cm2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.jake-pic {
+  background: url('../images/jm.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}

@@ -1,0 +1,11 @@
+eclipse
+clean
+compile
+reload
+run
+clean, compile
+clean
+compile
+eclipse
+reload
+run
