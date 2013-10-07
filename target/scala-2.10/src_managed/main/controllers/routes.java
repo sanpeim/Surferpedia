@@ -1,6 +1,6 @@
-// @SOURCE:C:/dev/gitrepos/sanpei-repos/Surferpedia/conf/routes
-// @HASH:8da9f873830581df744339ac8880781c5921352c
-// @DATE:Sun Oct 06 17:02:35 HST 2013
+// @SOURCE:/Users/scotthonda/Documents/Surferpedia/conf/routes
+// @HASH:ee85867376c3f05b50eccabeb8df5a29e661ea02
+// @DATE:Mon Oct 07 10:59:28 HST 2013
 
 package controllers;
 

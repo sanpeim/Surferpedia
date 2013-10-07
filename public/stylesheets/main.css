@@ -36,3 +36,10 @@ body {
   background-position: center;
   height: 500px;
 }
+
+.kolohe-pic {
+  background: url('../images/KoloheAndino_02.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}

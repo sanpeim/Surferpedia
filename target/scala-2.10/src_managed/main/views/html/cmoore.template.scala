@@ -60,10 +60,10 @@ Seq[Any](format.raw/*1.19*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sun Oct 06 16:49:34 HST 2013
-                    SOURCE: C:/dev/gitrepos/sanpei-repos/Surferpedia/app/views/cmoore.scala.html
-                    HASH: cd86da668d8482a29f842ddb90b2b7595be20f0f
-                    MATRIX: 775->1|886->18|925->23|947->37|986->39|2907->1929
+                    DATE: Mon Oct 07 10:59:31 HST 2013
+                    SOURCE: /Users/scotthonda/Documents/Surferpedia/app/views/cmoore.scala.html
+                    HASH: cb6eca168afeed8b08e9bf8e7ac2b3d4e26e619a
+                    MATRIX: 775->1|886->18|923->21|945->35|984->37|2886->1908
                     LINES: 26->1|29->1|31->3|31->3|31->3|50->22
                     -- GENERATED --
                 */

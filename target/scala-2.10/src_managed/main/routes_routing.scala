@@ -1,6 +1,6 @@
-// @SOURCE:C:/dev/gitrepos/sanpei-repos/Surferpedia/conf/routes
-// @HASH:8da9f873830581df744339ac8880781c5921352c
-// @DATE:Sun Oct 06 17:02:35 HST 2013
+// @SOURCE:/Users/scotthonda/Documents/Surferpedia/conf/routes
+// @HASH:ee85867376c3f05b50eccabeb8df5a29e661ea02
+// @DATE:Mon Oct 07 10:59:28 HST 2013
 
 
 import play.core._
@@ -52,10 +52,14 @@ private[this] lazy val controllers_Application_jakem4 = Route("GET", PathPattern
 private[this] lazy val controllers_Application_souza5 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("souza"))))
         
 
-// @LINE:14
-private[this] lazy val controllers_Assets_at6 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
+// @LINE:12
+private[this] lazy val controllers_Application_kolohe6 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("kolohe"))))
         
-def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """page1""","""controllers.Application.page1()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """kalanid""","""controllers.Application.kalanid()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """cmoore""","""controllers.Application.cmoore()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """jakem""","""controllers.Application.jakem()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """souza""","""controllers.Application.souza()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+
+// @LINE:15
+private[this] lazy val controllers_Assets_at7 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
+        
+def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """page1""","""controllers.Application.page1()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """kalanid""","""controllers.Application.kalanid()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """cmoore""","""controllers.Application.cmoore()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """jakem""","""controllers.Application.jakem()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """souza""","""controllers.Application.souza()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """kolohe""","""controllers.Application.kolohe()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]] 
 }}
@@ -111,8 +115,16 @@ case controllers_Application_souza5(params) => {
 }
         
 
-// @LINE:14
-case controllers_Assets_at6(params) => {
+// @LINE:12
+case controllers_Application_kolohe6(params) => {
+   call { 
+        invokeHandler(controllers.Application.kolohe(), HandlerDef(this, "controllers.Application", "kolohe", Nil,"GET", """""", Routes.prefix + """kolohe"""))
+   }
+}
+        
+
+// @LINE:15
+case controllers_Assets_at7(params) => {
    call(Param[String]("path", Right("/public")), params.fromPath[String]("file", None)) { (path, file) =>
         invokeHandler(controllers.Assets.at(path, file), HandlerDef(this, "controllers.Assets", "at", Seq(classOf[String], classOf[String]),"GET", """ Map static resources from the /public folder to the /assets URL path""", Routes.prefix + """assets/$file<.+>"""))
    }

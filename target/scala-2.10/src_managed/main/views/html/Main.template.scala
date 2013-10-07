@@ -67,18 +67,19 @@ Seq[Any](format.raw/*1.31*/("""
             <ul class="dropdown-menu" role="menu">
             <li><a href=""""),_display_(Seq[Any](/*40.27*/routes/*40.33*/.Application.kalanid())),format.raw/*40.55*/("""">Kalani David</a></li>
             <li><a href=""""),_display_(Seq[Any](/*41.27*/routes/*41.33*/.Application.souza())),format.raw/*41.53*/("""">Adriano de Souza</a></li>
+            <li><a href=""""),_display_(Seq[Any](/*42.27*/routes/*42.33*/.Application.kolohe())),format.raw/*42.54*/("""">Kolohe Andino</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Females <b class="caret"></b></a>
             <ul class="dropdown-menu" role="menu">
-            <li><a href=""""),_display_(Seq[Any](/*47.27*/routes/*47.33*/.Application.cmoore())),format.raw/*47.54*/("""">Clarissa Moore</a></li>
+            <li><a href=""""),_display_(Seq[Any](/*48.27*/routes/*48.33*/.Application.cmoore())),format.raw/*48.54*/("""">Clarissa Moore</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Groms <b class="caret"></b></a>
             <ul class="dropdown-menu" role="menu">
-            <li><a href=""""),_display_(Seq[Any](/*53.27*/routes/*53.33*/.Application.jakem())),format.raw/*53.53*/("""">Jake Marshall</a></li>
+            <li><a href=""""),_display_(Seq[Any](/*54.27*/routes/*54.33*/.Application.jakem())),format.raw/*54.53*/("""">Jake Marshall</a></li>
             </ul>
           </li>
           
@@ -86,7 +87,7 @@ Seq[Any](format.raw/*1.31*/("""
       </div>
     </div>
   </div>
-      """),_display_(Seq[Any](/*61.8*/content)),format.raw/*61.15*/("""
+      """),_display_(Seq[Any](/*62.8*/content)),format.raw/*62.15*/("""
       <!-- Load Bootstrap JavaScript components. HTMLUnit (used in testing) requires JQuery 1.8.3 or below). -->
       <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
       <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
@@ -104,11 +105,11 @@ Seq[Any](format.raw/*1.31*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sun Oct 06 17:02:35 HST 2013
-                    SOURCE: C:/dev/gitrepos/sanpei-repos/Surferpedia/app/views/Main.scala.html
-                    HASH: 9fa597f093c348cc9e1399c40e00304ec9822a33
-                    MATRIX: 778->1|901->30|1338->431|1353->437|1409->471|1507->533|1522->539|1576->571|2870->1829|2885->1835|2929->1857|3016->1908|3031->1914|3073->1934|3391->2216|3406->2222|3449->2243|3763->2521|3778->2527|3820->2547|3989->2681|4018->2688
-                    LINES: 26->1|29->1|40->12|40->12|40->12|41->13|41->13|41->13|68->40|68->40|68->40|69->41|69->41|69->41|75->47|75->47|75->47|81->53|81->53|81->53|89->61|89->61
+                    DATE: Mon Oct 07 10:59:31 HST 2013
+                    SOURCE: /Users/scotthonda/Documents/Surferpedia/app/views/Main.scala.html
+                    HASH: 524899f1219ec73588f6afac6df0f907aa1748a2
+                    MATRIX: 778->1|901->30|1327->420|1342->426|1398->460|1495->521|1510->527|1564->559|2831->1790|2846->1796|2890->1818|2976->1868|2991->1874|3033->1894|3123->1948|3138->1954|3181->1975|3490->2248|3505->2254|3548->2275|3856->2547|3871->2553|3913->2573|4074->2699|4103->2706
+                    LINES: 26->1|29->1|40->12|40->12|40->12|41->13|41->13|41->13|68->40|68->40|68->40|69->41|69->41|69->41|70->42|70->42|70->42|76->48|76->48|76->48|82->54|82->54|82->54|90->62|90->62
                     -- GENERATED --
                 */
             
