@@ -10,3 +10,7 @@ eclipse
 reload
 run
 exit
+clean
+compile
+eclipse
+run

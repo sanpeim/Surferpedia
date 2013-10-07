@@ -1,6 +1,6 @@
-// @SOURCE:/Users/marc/github/Surferpedia/conf/routes
-// @HASH:84731803ebceaf6ac9a226867e4699379324c622
-// @DATE:Fri Oct 04 17:14:52 HST 2013
+// @SOURCE:C:/dev/gitrepos/sanpei-repos/Surferpedia/conf/routes
+// @HASH:8da9f873830581df744339ac8880781c5921352c
+// @DATE:Sun Oct 06 17:02:35 HST 2013
 
 
 import play.core._
@@ -48,10 +48,14 @@ private[this] lazy val controllers_Application_cmoore3 = Route("GET", PathPatter
 private[this] lazy val controllers_Application_jakem4 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("jakem"))))
         
 
-// @LINE:13
-private[this] lazy val controllers_Assets_at5 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
+// @LINE:11
+private[this] lazy val controllers_Application_souza5 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("souza"))))
         
-def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """page1""","""controllers.Application.page1()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """kalanid""","""controllers.Application.kalanid()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """cmoore""","""controllers.Application.cmoore()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """jakem""","""controllers.Application.jakem()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+
+// @LINE:14
+private[this] lazy val controllers_Assets_at6 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
+        
+def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """page1""","""controllers.Application.page1()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """kalanid""","""controllers.Application.kalanid()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """cmoore""","""controllers.Application.cmoore()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """jakem""","""controllers.Application.jakem()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """souza""","""controllers.Application.souza()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]] 
 }}
@@ -99,8 +103,16 @@ case controllers_Application_jakem4(params) => {
 }
         
 
-// @LINE:13
-case controllers_Assets_at5(params) => {
+// @LINE:11
+case controllers_Application_souza5(params) => {
+   call { 
+        invokeHandler(controllers.Application.souza(), HandlerDef(this, "controllers.Application", "souza", Nil,"GET", """""", Routes.prefix + """souza"""))
+   }
+}
+        
+
+// @LINE:14
+case controllers_Assets_at6(params) => {
    call(Param[String]("path", Right("/public")), params.fromPath[String]("file", None)) { (path, file) =>
         invokeHandler(controllers.Assets.at(path, file), HandlerDef(this, "controllers.Assets", "at", Seq(classOf[String], classOf[String]),"GET", """ Map static resources from the /public folder to the /assets URL path""", Routes.prefix + """assets/$file<.+>"""))
    }

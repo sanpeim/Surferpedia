@@ -29,3 +29,10 @@ body {
   background-position: center;
   height: 500px;
 }
+
+.souza-pic {
+  background: url('../images/souza.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}

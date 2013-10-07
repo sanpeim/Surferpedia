@@ -7,6 +7,7 @@ import views.html.Page1;
 import views.html.kalanid;
 import views.html.cmoore;
 import views.html.jakem;
+import views.html.souza;
 
 /**
  * Implements the controllers for this application.
@@ -54,6 +55,15 @@ public class Application extends Controller {
    */
   public static Result jakem() {
     return ok(jakem.render("Welcome to Page1."));
+    
+  }
+  
+  /**
+   * Returns page1, a simple example of a second page to illustrate navigation.
+   * @return The Page1.
+   */
+  public static Result souza() {
+    return ok(souza.render("Welcome to Page1."));
     
   }
 }

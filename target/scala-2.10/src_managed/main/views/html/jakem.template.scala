@@ -60,10 +60,10 @@ Seq[Any](format.raw/*1.19*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Fri Oct 04 17:14:52 HST 2013
-                    SOURCE: /Users/marc/github/Surferpedia/app/views/jakem.scala.html
-                    HASH: 7620b555ea134cb1fdb2b99e2d2ac31c43a3494d
-                    MATRIX: 774->1|885->18|922->21|943->34|982->36|2436->1459
+                    DATE: Sun Oct 06 16:49:34 HST 2013
+                    SOURCE: C:/dev/gitrepos/sanpei-repos/Surferpedia/app/views/jakem.scala.html
+                    HASH: 2a86484e45450531131985e4a52efaf7afea89f2
+                    MATRIX: 774->1|885->18|924->23|945->36|984->38|2457->1480
                     LINES: 26->1|29->1|31->3|31->3|31->3|50->22
                     -- GENERATED --
                 */

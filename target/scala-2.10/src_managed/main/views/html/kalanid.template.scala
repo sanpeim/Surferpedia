@@ -59,10 +59,10 @@ Seq[Any](format.raw/*1.19*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Fri Oct 04 17:14:52 HST 2013
-                    SOURCE: /Users/marc/github/Surferpedia/app/views/kalanid.scala.html
-                    HASH: a25c31de89bef7e77170f1e560f0deb716af32a6
-                    MATRIX: 776->1|887->18|924->21|947->36|986->38|2345->1366
+                    DATE: Sun Oct 06 16:49:34 HST 2013
+                    SOURCE: C:/dev/gitrepos/sanpei-repos/Surferpedia/app/views/kalanid.scala.html
+                    HASH: 8cfac58c18bc391ca43cc66668b687869dcad8bb
+                    MATRIX: 776->1|887->18|926->23|949->38|988->40|2365->1386
                     LINES: 26->1|29->1|31->3|31->3|31->3|49->21
                     -- GENERATED --
                 */
