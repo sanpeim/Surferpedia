@@ -1,6 +1,6 @@
-// @SOURCE:C:/dev/gitrepos/sanpei-repos/Surferpedia/conf/routes
-// @HASH:8da9f873830581df744339ac8880781c5921352c
-// @DATE:Sun Oct 06 17:02:35 HST 2013
+// @SOURCE:/Users/marc/github/Surferpedia/conf/routes
+// @HASH:acdd0e2760ac26cdf6d9623269b4981dcd2cab8e
+// @DATE:Sun Oct 06 17:16:11 HST 2013
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._

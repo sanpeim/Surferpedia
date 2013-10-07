@@ -14,3 +14,7 @@ clean
 compile
 eclipse
 run
+clean
+compile
+run
+eclipse
