@@ -98,19 +98,11 @@ Seq[Any](format.raw/*1.19*/("""
 }
                 /*
                     -- GENERATED --
-<<<<<<< HEAD
-                    DATE: Sun Oct 06 17:16:14 HST 2013
+                    DATE: Mon Oct 07 11:10:03 HST 2013
                     SOURCE: /Users/marc/github/Surferpedia/app/views/Index.scala.html
-                    HASH: 91bcf2f18e26f1869b4828954cc7c59a502f71eb
-                    MATRIX: 774->1|885->18|922->21|942->33|981->35|2840->1863
-                    LINES: 26->1|29->1|31->3|31->3|31->3|81->53
-=======
-                    DATE: Mon Oct 07 11:05:21 HST 2013
-                    SOURCE: /Users/scotthonda/Documents/Surferpedia/app/views/Index.scala.html
                     HASH: 29828e15590ccd97a901324cbbef9d81a628f4af
                     MATRIX: 774->1|885->18|922->21|942->33|981->35|3131->2154
                     LINES: 26->1|29->1|31->3|31->3|31->3|88->60
->>>>>>> 1452821d59b24b2be20b536aa3d813e85d08f4ae
                     -- GENERATED --
                 */
             

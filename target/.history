@@ -27,3 +27,10 @@ compile
 eclipse
 run
 >>>>>>> 1452821d59b24b2be20b536aa3d813e85d08f4ae
+clean
+compile
+run
+exit
+run
+exity
+exit

@@ -58,8 +58,8 @@ Seq[Any](format.raw/*1.19*/(""" """),_display_(Seq[Any](/*1.21*/Main("Home")/*1.
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Oct 07 11:05:21 HST 2013
-                    SOURCE: /Users/scotthonda/Documents/Surferpedia/app/views/kolohe.scala.html
+                    DATE: Mon Oct 07 11:10:03 HST 2013
+                    SOURCE: /Users/marc/github/Surferpedia/app/views/kolohe.scala.html
                     HASH: ca997fb4557c9c9a1f339ec6125ca21f116ba35f
                     MATRIX: 775->1|886->18|923->20|943->32|982->34|1837->858
                     LINES: 26->1|29->1|29->1|29->1|29->1|48->20

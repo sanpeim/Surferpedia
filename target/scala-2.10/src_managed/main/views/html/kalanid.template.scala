@@ -59,13 +59,8 @@ Seq[Any](format.raw/*1.19*/("""
 }
                 /*
                     -- GENERATED --
-<<<<<<< HEAD
-                    DATE: Sun Oct 06 17:16:14 HST 2013
+                    DATE: Mon Oct 07 11:10:03 HST 2013
                     SOURCE: /Users/marc/github/Surferpedia/app/views/kalanid.scala.html
-=======
-                    DATE: Mon Oct 07 10:59:31 HST 2013
-                    SOURCE: /Users/scotthonda/Documents/Surferpedia/app/views/kalanid.scala.html
->>>>>>> 1452821d59b24b2be20b536aa3d813e85d08f4ae
                     HASH: a25c31de89bef7e77170f1e560f0deb716af32a6
                     MATRIX: 776->1|887->18|924->21|947->36|986->38|2345->1366
                     LINES: 26->1|29->1|31->3|31->3|31->3|49->21

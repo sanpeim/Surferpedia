@@ -60,13 +60,8 @@ Seq[Any](format.raw/*1.19*/("""
 }
                 /*
                     -- GENERATED --
-<<<<<<< HEAD
-                    DATE: Sun Oct 06 17:16:14 HST 2013
+                    DATE: Mon Oct 07 11:10:03 HST 2013
                     SOURCE: /Users/marc/github/Surferpedia/app/views/souza.scala.html
-=======
-                    DATE: Mon Oct 07 10:59:32 HST 2013
-                    SOURCE: /Users/scotthonda/Documents/Surferpedia/app/views/souza.scala.html
->>>>>>> 1452821d59b24b2be20b536aa3d813e85d08f4ae
                     HASH: 0ce441c2a661e94dde885c4d7f27b5fd106c6dff
                     MATRIX: 774->1|885->18|922->21|943->34|982->36|2447->1470
                     LINES: 26->1|29->1|31->3|31->3|31->3|50->22
