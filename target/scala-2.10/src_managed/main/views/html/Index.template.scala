@@ -39,6 +39,7 @@ Seq[Any](format.raw/*1.19*/("""
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
             <li data-target="#carousel-example-generic" data-slide-to="3"></li>
             <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
         </ol>
         
         <!-- Wrapper for Slides -->
@@ -73,6 +74,12 @@ Seq[Any](format.raw/*1.19*/("""
                     <h3>Kolohe Andinoh</h3>
                 </div>
             </div>
+            <div class="item">
+                <div class="keliamoniz"></div>
+                <div class="carousel-caption">
+                    <h3>Kelia Moniz</h3>
+                </div>
+            </div>
         </div>
         
         <!-- Controls -->
@@ -85,7 +92,7 @@ Seq[Any](format.raw/*1.19*/("""
         
      </div> 
    </div>
-""")))})),format.raw/*60.2*/("""
+""")))})),format.raw/*67.2*/("""
 """))}
     }
     
@@ -98,11 +105,11 @@ Seq[Any](format.raw/*1.19*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Oct 07 11:10:03 HST 2013
-                    SOURCE: /Users/marc/github/Surferpedia/app/views/Index.scala.html
-                    HASH: 29828e15590ccd97a901324cbbef9d81a628f4af
-                    MATRIX: 774->1|885->18|922->21|942->33|981->35|3131->2154
-                    LINES: 26->1|29->1|31->3|31->3|31->3|88->60
+                    DATE: Wed Oct 09 10:57:10 HST 2013
+                    SOURCE: /Users/rckndn/git/sanpeim/Surferpedia/app/views/Index.scala.html
+                    HASH: 7abe7e75889ae1d641ec9b5c65a8d85382fa0d30
+                    MATRIX: 774->1|885->18|922->21|942->33|981->35|3419->2442
+                    LINES: 26->1|29->1|31->3|31->3|31->3|95->67
                     -- GENERATED --
                 */
             

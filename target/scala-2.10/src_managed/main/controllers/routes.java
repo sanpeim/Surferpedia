@@ -1,6 +1,6 @@
-// @SOURCE:/Users/marc/github/Surferpedia/conf/routes
-// @HASH:ee85867376c3f05b50eccabeb8df5a29e661ea02
-// @DATE:Mon Oct 07 11:10:00 HST 2013
+// @SOURCE:/Users/rckndn/git/sanpeim/Surferpedia/conf/routes
+// @HASH:046d421eb2986d61e8a83c808c716fdbdc41606a
+// @DATE:Wed Oct 09 10:57:59 HST 2013
 
 package controllers;
 

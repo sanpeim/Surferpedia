@@ -43,3 +43,10 @@ body {
   background-position: center;
   height: 500px;
 }
+
+.keliamoniz {
+  background: url("../images/KeliaMoniz.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}

@@ -1,6 +1,6 @@
-// @SOURCE:/Users/marc/github/Surferpedia/conf/routes
-// @HASH:ee85867376c3f05b50eccabeb8df5a29e661ea02
-// @DATE:Mon Oct 07 11:10:00 HST 2013
+// @SOURCE:/Users/rckndn/git/sanpeim/Surferpedia/conf/routes
+// @HASH:046d421eb2986d61e8a83c808c716fdbdc41606a
+// @DATE:Wed Oct 09 10:57:59 HST 2013
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -13,7 +13,8 @@ import play.libs.F
 import Router.queryString
 
 
-// @LINE:15
+// @LINE:16
+// @LINE:13
 // @LINE:12
 // @LINE:11
 // @LINE:10
@@ -23,11 +24,11 @@ import Router.queryString
 // @LINE:6
 package controllers {
 
-// @LINE:15
+// @LINE:16
 class ReverseAssets {
     
 
-// @LINE:15
+// @LINE:16
 def at(file:String): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
 }
@@ -36,6 +37,7 @@ def at(file:String): Call = {
 }
                           
 
+// @LINE:13
 // @LINE:12
 // @LINE:11
 // @LINE:10
@@ -76,6 +78,12 @@ def jakem(): Call = {
 }
                                                 
 
+// @LINE:13
+def keliamoniz(): Call = {
+   Call("GET", _prefix + { _defaultPrefix } + "kelia")
+}
+                                                
+
 // @LINE:11
 def souza(): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "souza")
@@ -94,7 +102,8 @@ def index(): Call = {
                   
 
 
-// @LINE:15
+// @LINE:16
+// @LINE:13
 // @LINE:12
 // @LINE:11
 // @LINE:10
@@ -104,11 +113,11 @@ def index(): Call = {
 // @LINE:6
 package controllers.javascript {
 
-// @LINE:15
+// @LINE:16
 class ReverseAssets {
     
 
-// @LINE:15
+// @LINE:16
 def at : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Assets.at",
    """
@@ -122,6 +131,7 @@ def at : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
+// @LINE:13
 // @LINE:12
 // @LINE:11
 // @LINE:10
@@ -187,6 +197,17 @@ def jakem : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
+// @LINE:13
+def keliamoniz : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.keliamoniz",
+   """
+      function() {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "kelia"})
+      }
+   """
+)
+                        
+
 // @LINE:11
 def souza : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Application.souza",
@@ -215,7 +236,8 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
-// @LINE:15
+// @LINE:16
+// @LINE:13
 // @LINE:12
 // @LINE:11
 // @LINE:10
@@ -226,11 +248,11 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
 package controllers.ref {
 
 
-// @LINE:15
+// @LINE:16
 class ReverseAssets {
     
 
-// @LINE:15
+// @LINE:16
 def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Assets.at(path, file), HandlerDef(this, "controllers.Assets", "at", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
 )
@@ -239,6 +261,7 @@ def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.
 }
                           
 
+// @LINE:13
 // @LINE:12
 // @LINE:11
 // @LINE:10
@@ -276,6 +299,12 @@ def cmoore(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 // @LINE:10
 def jakem(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.jakem(), HandlerDef(this, "controllers.Application", "jakem", Seq(), "GET", """""", _prefix + """jakem""")
+)
+                      
+
+// @LINE:13
+def keliamoniz(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.keliamoniz(), HandlerDef(this, "controllers.Application", "keliamoniz", Seq(), "GET", """""", _prefix + """kelia""")
 )
                       
 

@@ -60,8 +60,8 @@ Seq[Any](format.raw/*1.19*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Oct 07 11:10:03 HST 2013
-                    SOURCE: /Users/marc/github/Surferpedia/app/views/cmoore.scala.html
+                    DATE: Wed Oct 09 10:51:08 HST 2013
+                    SOURCE: /Users/rckndn/git/sanpeim/Surferpedia/app/views/cmoore.scala.html
                     HASH: cb6eca168afeed8b08e9bf8e7ac2b3d4e26e619a
                     MATRIX: 775->1|886->18|923->21|945->35|984->37|2886->1908
                     LINES: 26->1|29->1|31->3|31->3|31->3|50->22
